@@ -1,2 +1,2 @@
 # DataVisualization
-Data Mining project using matplotlib and Pygal
+:squirrel: Data Mining project using matplotlib and Pygal
