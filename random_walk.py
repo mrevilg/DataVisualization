@@ -11,3 +11,11 @@ class RandomWalk():
         # All walks start at (0,0).
         self.x_values = [0]
         self.y_values = [0] 
+
+    def fill_walk(self):
+        """Calculate all the points in the walk."""
+
+        # Keep taking steps until the walk has reached the desired length.
+        while len(self.x_values) < self.num_points:
+
+        # Decide which direction to go in and how far to go in that direction.
