@@ -1,5 +1,6 @@
 import csv
 
+# Get high tempreatures from file.
 filename = 'sitka_weather_07-2014.csv'
 with open(filename) as f:
     reader = csv.reader(f)
@@ -7,7 +8,8 @@ with open(filename) as f:
     
     highs = []
     for row in reader:
-        highs.append(row[1])
+        high = int(row[1])
+        highs.append(high)
     
     print(highs)
 
