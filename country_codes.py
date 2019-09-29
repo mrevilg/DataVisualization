@@ -8,4 +8,3 @@ def get_country_code(country_name):
     # If country wasn't found, return None.
     return None
 
-print(get_country_code('Andorra'))
